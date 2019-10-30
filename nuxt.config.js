@@ -37,7 +37,10 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: [
+  modules: [],
+
+  buildModules: [
+    '@nuxtjs/vuetify'
   ],
   /*
   ** Build configuration
